@@ -1,0 +1,74 @@
+.pagina-servicos{
+    width: 100%; 
+    background: #C9C6C6 0% 0% no-repeat padding-box;
+    text-align: center;
+    height: 100vh;
+}
+
+.titulo {
+    font-family: TitilliumWeb-Bold;
+}
+
+.sub-titulo{
+    font-family: TitilliumWeb-light;
+    font-size: 18px;
+}
+
+h2{
+    font-family: TitilliumWeb-Bold;
+    color: #FFFFFF;
+}
+
+.servico{
+    padding: 0px 30px;
+    margin-top: 25px;
+    
+}
+
+.servico h4{
+    margin-top: 10px;
+    font-family: TitilliumWeb-Bold;
+}
+
+.servicos img{
+    width: 100px;
+}
+
+.servico span{
+    font-family: TitilliumWeb-light;
+    max-width: 300px;
+    font-size: 15px;
+}
+
+@media (min-width:575px) and ( max-width: 990px) {
+    .pagina-servicos{
+        width: 100%; 
+        background: #C9C6C6 0% 0% no-repeat padding-box;
+        text-align: center;
+        height: 750px;   
+    }
+    .servico img{
+        width: 23%;
+    }
+
+    .servico {
+        min-width: 350px;
+    }
+}
+
+@media (max-width: 690px) {
+    .pagina-servicos{
+        width: 100%; 
+        background: #C9C6C6 0% 0% no-repeat padding-box;
+        text-align: center;
+        height: 1100px;   
+    }
+    .servico{
+        text-align: center;
+        max-width: 450px;
+    }
+
+    .servicos img{
+        width: 13%;
+    }
+}

@@ -1,0 +1,50 @@
+<div class="banner">
+
+    <div class="menu">
+        <ul>
+            <li><a href="#sobre">QUEM SOMOS</a></li>
+            <li><a href="#servicos">ÁREAS DE ATUAÇÃO</a></li>
+            <li><a href="#galeria">OBRAS</a></li>
+            <li><a class="link-fale-conosco" style="color:#F6B30D; " href="#contato">FALE CONOSCO</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <span (click)="openNav()">&#9776;</span>
+    </div>
+
+    <div class="logo">
+        <img class="mb-3" src="assets/img/logo.png">
+        <span>BOA NOVA</span>
+    </div>
+
+    <div class="conteudo">
+        <h2>Execução de obras e projetos</h2>
+        <span>Instalações elétricas e construção civil</span>
+    </div>
+
+</div>
+
+
+<div id="mySidenav" class="sidenav">
+    <div class="seta-fechar">
+        <img src="assets/img/seta-direita.png" (click)="closeNav()">
+    </div>
+
+    <div class="menu-sidebar">
+        <ul>
+            <a href="#sobre" (click)="closeNav()">QUEM SOMOS</a>
+            <hr class="line-menu">
+            <a href="#servicos" (click)="closeNav()">ÁREAS DE ATUAÇÃO</a>
+            <hr class="line-menu">
+            <a href="#galeria" (click)="closeNav()">OBRAS</a>
+            <hr class="line-menu">
+            <a style="color:#F6B30D; " href="#contato" (click)="closeNav()">FALE CONOSCO</a>
+            <hr class="line-menu">
+        </ul>
+    </div>
+</div>
+
+<div class="seta">
+    <img src="../../assets/img/seta-cima-pq.png" alt="" (click)="voltarAoTopo()">
+</div>

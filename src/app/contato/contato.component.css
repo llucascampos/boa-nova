@@ -1,0 +1,104 @@
+.contatoView {}
+
+.duvida {
+    width: 55%;
+    text-align: center;
+    float: left;
+    padding: 50px 70px;
+    background: #D9D3D3 0% 0% no-repeat padding-box;
+    height: 760px;
+}
+
+.validacao {
+    color: red;
+    font-family: TitilliumWeb-Bold;
+}
+
+.titulo h3 {
+    font-family: TitilliumWeb-Bold;
+}
+
+.titulo p {
+    font-family: TitilliumWeb-light;
+    margin: 40px 0px 50px 0px;
+}
+
+.titulo span {
+    font-family: TitilliumWeb-Bold;
+    color: #4E4E49;
+}
+
+.projeto {
+    background-image: url('../../assets/img/background-contato.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    text-align: left;
+    float: right;
+    text-align: center;
+    padding: 50px 70px;
+    height: 760px;
+}
+
+.alerta {
+    width: 50%;
+    position: fixed;
+    top: 100px;
+    left: 25%
+}
+
+.contato {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.contato p {
+    margin-top: 10px;
+    margin-bottom: 25px
+}
+
+.contato span {
+    font-family: TitilliumWeb-Bold;
+    font-weight: bold;
+    color: #060606;
+}
+
+.contato p {
+    font-family: TitilliumWeb-light;
+    color: #060606;
+}
+
+form input {
+    font-family: TitilliumWeb-light;
+}
+
+.formulario button {
+    width: 200px;
+    height: 50px;
+    border: 3px solid #F7B40E;
+    border-radius: 7px;
+    opacity: 1;
+    font-family: TitilliumWeb-Bold;
+}
+
+input,
+input:focus,
+textarea:focus,
+textarea {
+    text-decoration: none;
+    background: none;
+    border: none;
+    border-bottom: solid 1px #9D9D9D;
+    border-radius: 0%;
+}
+
+@media (max-width: 750px) {
+    .duvida {
+        width: 100%;
+        float: none;
+    }
+    .projeto {
+        width: 100%;
+        float: none;
+    }
+}

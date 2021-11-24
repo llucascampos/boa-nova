@@ -1,0 +1,73 @@
+<div class="contatoView">
+
+    <div class="duvida">
+        <div class="titulo">
+            <h3 style="color: #F7B40E;">Tem uma dúvida?</h3>
+            <p>Descubra as soluções da Boa Nova Engenharia para você e seus projetos.</p>
+        </div>
+
+        <div *ngIf="exibirAlerta" class="alert alert-success alerta" role="alert">
+            <strong>{{mensagemAlerta}}</strong>
+        </div>
+
+
+        <div class="row">
+            <form [formGroup]="formulario">
+                <div class="form-floating mb-3">
+                    <input formControlName="nome" type="text" class="form-control" id="nome" placeholder="SEU NOME*">
+                    <label for="nome">SEU NOME*</label>
+                    <ng-container *ngIf="formulario.controls.nome.touched">
+                        <span *ngIf="formulario.controls.nome.errors" class="validacao">É necessário informar seu nome</span>
+                    </ng-container>
+                </div>
+                <div class="form-floating mb-3">
+                    <input formControlName="email" type="text" class="form-control" id="email" placeholder="SEU E-MAIL*">
+                    <label for="email">SEU E-MAIL*</label>
+                    <ng-container *ngIf="formulario.controls.email.touched">
+                        <span *ngIf="formulario.controls.email.errors" class="validacao">Insira um e-mail válido</span>
+                    </ng-container>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea formControlName="mensagem" style="height: 150px;" class="form-control" id="mensagem" placeholder="MENSAGEM*"></textarea>
+                    <label for="mensagem">MENSAGEM*</label>
+                    <ng-container *ngIf="formulario.controls.mensagem.touched">
+                        <span *ngIf="formulario.controls.mensagem.errors" class="validacao">Escreva sua mensagem</span>
+                    </ng-container>
+                </div>
+                <div style=" margin: 100px 0px 20px 0px">
+                    <hr>
+                </div>
+                <button (click)="enviarMsg()" type="submit" class="btn btn-outline-warning">ENVIAR</button>
+            </form>
+        </div>
+
+
+    </div>
+
+    <div class="projeto">
+        <div class="titulo">
+            <h3>Vamos começar um projeto?</h3>
+            <p>Entre em contato e tire todas as dúvidas. Teremos o maior prazer em responder suas perguntas.</p>
+            <span>[Nossos detalhes de contato]</span>
+        </div>
+
+
+
+        <div class="contato">
+            <div>
+                <span>NOSSO E-MAIL:</span>
+                <p>boanova@boanovaservicos.com.br</p>
+            </div>
+            <div>
+                <span>NOSSO WHATSAPP</span>
+                <P>(11) 9.4732-9191</P>
+            </div>
+            <div>
+                <span>NOSSO INSTAGRAM:</span>
+                <p>@boanova.eng</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>

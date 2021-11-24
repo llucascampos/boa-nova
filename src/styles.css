@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: adam-bold;
+    src: url(assets/fonts/Adam-Bold.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url(assets/fonts/TitilliumWeb-Bold.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: TitilliumWeb-light;
+    src: url(assets/fonts/TitilliumWeb-Light.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: TitilliumWeb-regular;
+    src: url(assets/fonts/TitilliumWeb-Regular.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: Raleway-Light;
+    src: url(assets/fonts/Raleway-Light.ttf) format("opentype");
+  }
+
+  .row-no-padding [class*="col-"] {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }

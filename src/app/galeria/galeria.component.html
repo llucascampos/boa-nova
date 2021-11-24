@@ -1,0 +1,95 @@
+<div class="galeriaView">
+
+    <div class="titulo">
+        <h2>OBRAS REALIZADAS</h2>
+        <div class="divisao">
+            <app-divisao></app-divisao>
+        </div>
+        <span>Confira algumas de nossas obras realizadas.</span>
+    </div>
+
+    <div class="imagens">
+        <ngx-slick-carousel [config]="slideConfig">
+
+            <div ngxSlickItem class="">
+                <div class="container">
+                    <div class="imagem">
+                        <img src="assets/img/galeria/Area-para-abastecimento-gás.jpg" alt="">
+                        <label>Area para abastecimento de gás</label>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="imagem apenasDesktop">
+                        <img src="assets/img/galeria/cobertura-policarbonato-passarela.jpg" alt="">
+                        <label>Cobertura em policarbonato e toldo passarela</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div ngxSlickItem>
+                <div class="container">
+                    <div class="imagem">
+                        <img src="assets/img/galeria/coberturas-aluminio.jpg" alt="">
+                        <label>Coberturas em alumínio para linhas de produção</label>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="imagem">
+                        <img src="assets/img/galeria/Iluminação-areas-quente-de-fabricacao.jpg" alt="">
+                        <label>Iluminação em áreas quente de fabricação</label>
+                    </div>
+                </div>
+            </div>
+
+            <div ngxSlickItem>
+                <div class="container">
+                    <div class="imagem">
+                        <img src="assets/img/galeria/projetos-construcoes-predio.jpg" alt="">
+                        <label>Projetos e construções para prédio almoxarifado, civil, eletrica, hidraulica,
+                            incendio</label>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="imagem">
+                        <img src="assets/img/galeria/projetos-construcoes-predio-2.jpg" alt="">
+                        <label>Projetos e construçções para prédio almoxarifado, civil, eletrica, hidraulica, incendio
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div ngxSlickItem>
+                <div class="container">
+                    <div class="imagem">
+                        <img src="assets/img/galeria/projetos-construcoes-sala-suspensa.jpg" alt="">
+                        <label>Projetos e construções para sala suspensa de painéis, civil, eletrica, hidraulica,
+                            incendio</label>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="imagem">
+                        <img src="assets/img/galeria/projetos-construcoes-sala-suspensa-2.jpg" alt="">
+                        <label>Projetos e construções para sala suspensa de painéis, civil, eletrica, hidraulica,
+                            incendio</label>
+                    </div>
+                </div>
+
+            </div>
+
+        </ngx-slick-carousel>
+    </div>
+
+    <!-- <div class="modal fade" id="foto" tabindex="-1" aria-labelledby="foto" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class=" fotoModal">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <img [src]="fotoModal" alt="">
+            </div>
+        </div>
+    </div> -->
+
+</div>

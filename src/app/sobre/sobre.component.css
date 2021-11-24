@@ -1,0 +1,43 @@
+.sobre {
+    margin-top: 50px;
+    height: 100vh;
+    clear: both;
+}
+
+.header {
+    margin-left: 5%;
+}
+
+.header .titulo {
+    padding-top: 20px;
+}
+
+h4 {
+    font-family: TitilliumWeb-Bold;
+}
+
+h5 {
+    font-family: TitilliumWeb-Bold;
+}
+
+img {
+    width: 100%;
+}
+
+.texto {
+    font-family: TitilliumWeb-light;
+    color: black;
+    font-size: 13px;
+}
+
+@media (min-width: 750px) {}
+
+@media (max-width: 750px) {
+    .header {
+        padding-left: 40px;
+    }
+    .sobre {
+        margin-top: -50px;
+        height: 900px;
+    }
+}
