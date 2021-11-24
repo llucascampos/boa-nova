@@ -11,7 +11,7 @@ export class ContatoComponent implements OnInit {
 
   formulario: FormGroup;
   appKey: string = '9CC887639EE20713B00FFDD016F7921384484EABAA344D5A9012D2F3CE8B90CFAB0318CC1A6AEC4F81E12A49F7A2CCC8'
-  emailDestino: string = 'pahollarocha@gmail.com'
+  emailDestino: string = 'boanova@boanovaservicos.com.br'
   assunto: string = 'mensagem recebida atraves do site'
   url: string = 'https://api.elasticemail.com/v2/email/send'
   mensagemAlerta: string = 'Mensagem enviada com sucesso'
